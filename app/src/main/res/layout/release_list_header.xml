@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/background_list_header_left">
+
+        <com.elegantwalrus.metalalbumreleases.view.FontAwesomeView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_clock"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:layout_alignBaseline="@+id/text"
+            android:paddingRight="4dp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text_medium"
+            android:text="16. April 2016"
+            android:paddingLeft="4dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@+id/time"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

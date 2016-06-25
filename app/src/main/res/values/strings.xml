@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MetalAlbumReleases</string>
+
+    <string name="message_progress">loading some metal</string>
+    <string name="hint_search_input">Filter for band, album or genre, …</string>
+
+    <string name="fa_times">\uf00d</string>
+    <string name="fa_bars">\uf0c9</string>
+    <string name="fa_clock">\uf017</string>
+
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_about">About</string>
+    <string name="about_copyright">MAR \u00A9 2016 | elegant walrus</string>
+    <string name="about_metal_archives">This app uses data from http://www.metal-archives.com/ to get you all the sweet metal releases. This is a non-commercial app that just exists to serve all you metalheads out there. We can not guarantee for the correctness of any of the data, so don\'t blame us if you miss something!</string>
+
+    <string name="title_about">About</string>
+    <string name="dialog_section_message">Jump to a date:</string>
+    <string name="back">Back</string>
+    <string name="about_rate">Rate this app!</string>
+
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
